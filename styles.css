@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background-image:url("https://t3.ftcdn.net/jpg/03/47/29/16/360_F_347291628_iqN7R0mkUwCwDPDpUUE1C1PjvDm1JTes.jpg") ;
+  
+}
+
+.container {
+    text-align: center;
+    background-image:url("https://i.pinimg.com/736x/09/32/66/09326623703c701e742e1bb41e2e3d75.jpg") ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(227, 10, 10, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.joke {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
